@@ -18,7 +18,15 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif']
+			},
 			colors: {
+				// Corporate hosting colors
+				'corp-blue': '#0066FF',
+				'corp-dark': '#1A1A1A',
+				'corp-gray': '#F8F9FA',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
